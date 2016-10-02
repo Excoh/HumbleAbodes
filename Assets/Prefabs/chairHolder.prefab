@@ -37,11 +37,11 @@ GameObject:
   - 33: {fileID: 33000012906670936}
   - 23: {fileID: 23000011677563646}
   - 114: {fileID: 114000013954131874}
-  - 65: {fileID: 65000011619048574}
-  - 54: {fileID: 54000013164694710}
-  m_Layer: 0
+  - 54: {fileID: 54000010467187844}
+  - 65: {fileID: 65000012702086594}
+  m_Layer: 8
   m_Name: Chair
-  m_TagString: Untagged
+  m_TagString: NormalObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,8 +52,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013157114990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25947946, y: -2.330687, z: 10.670373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3960173, y: 0.746, z: -3.115772}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -66,10 +66,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013258115380}
-  m_LocalRotation: {x: 0.000001809995, y: -0.00000004371139, z: 7.917863e-14, w: 1}
-  m_LocalPosition: {x: -2.25, y: 0.728, z: -3.3}
-  m_LocalScale: {x: 45.11219, y: 44.08273, z: 45.11218}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 35.518707, y: 35.518616, z: 35.518726}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010462575898}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
@@ -109,7 +109,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013258115380}
   m_Mesh: {fileID: 4300000, guid: f42838308461a634682be0b1eb1a5a4c, type: 3}
---- !u!54 &54000013164694710
+--- !u!54 &54000010467187844
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -124,7 +124,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65000011619048574
+--- !u!65 &65000012702086594
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -134,8 +134,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.014122912, y: 0.02934881, z: 0.01330466}
-  m_Center: {x: 0.0000007622875, y: -0.0022683411, z: -0.0023369528}
+  m_Size: {x: 0.014122912, y: 0.029348804, z: 0.013330466}
+  m_Center: {x: 0.0000007622875, y: -0.0022683407, z: -0.0023}
 --- !u!114 &114000013954131874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8565ffd387a36bd4b844a716ec6c70e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightOnTouch: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
+  highlightOnTouch: 1
+  touchHighlightColor: {r: 0.49803922, g: 0.91764706, b: 0.44313726, a: 0.5882353}
   rumbleOnTouch: {x: 0, y: 0}
   allowedTouchControllers: 0
   hideControllerOnTouch: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
   detachThreshold: 5000
   springJointStrength: 500
   springJointDamper: 50
-  throwMultiplier: 3
+  throwMultiplier: 1
   onGrabCollisionDelay: 0
   isUsable: 1
   useOnlyIfGrabbed: 0

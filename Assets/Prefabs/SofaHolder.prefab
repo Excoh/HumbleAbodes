@@ -53,8 +53,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010787473032}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.835, y: 0.66322994, z: -8.3909}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.8349, y: 0.66775, z: -8.4033}
+  m_LocalScale: {x: 0.88, y: 0.88, z: 0.88}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000012872289914}
@@ -86,7 +86,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 38df50251b714ba4580b6887e3eeaf1a, type: 2}
+  - {fileID: 2100000, guid: 347e6aa88539bc047bb6e584b809a453, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8565ffd387a36bd4b844a716ec6c70e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightOnTouch: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
+  highlightOnTouch: 1
+  touchHighlightColor: {r: 0.49803922, g: 0.91764706, b: 0.44313726, a: 0.5882353}
   rumbleOnTouch: {x: 0, y: 0}
   allowedTouchControllers: 0
   hideControllerOnTouch: 0

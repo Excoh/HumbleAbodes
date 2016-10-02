@@ -6,33 +6,88 @@
     public class UI_Interactions : MonoBehaviour
     {
         public GameObject furnitureHolder;
+        private UI_CubeHolder holder;
         private const int EXISTING_CANVAS_COUNT = 4;
+
+        void Start ()
+        {
+            holder = furnitureHolder.GetComponent<UI_CubeHolder>();
+        }
 
         public void Button_Red()
         {
             Debug.Log("Red Button Clicked");
         }
 
-        public void Spawn_Cubes()
+        public void Spawn_Chair()
         {
-            GameObject cubes = furnitureHolder.GetComponent<UI_CubeHolder>().cubesToSpawn;
-            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().wheretoSpawn;
+            GameObject cubes = holder.chairToSpawn;
+            Transform placeToSpawn = holder.chairPlaceSpawn;
             Debug.Log("Spawning Cubes");
             Instantiate(cubes, placeToSpawn.position, transform.rotation);
         }
 
         public void Spawn_Sofa()
         {
-            GameObject sofa = furnitureHolder.GetComponent<UI_CubeHolder>().sofaToSpawn;
-            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().sofaPlaceSpawn;
+            GameObject sofa = holder.sofaToSpawn;
+            Transform placeToSpawn = holder.sofaPlaceSpawn;
             Instantiate(sofa, placeToSpawn.position, transform.rotation);
         }
 
         public void Spawn_Fridge()
         {
-            GameObject fridge = furnitureHolder.GetComponent<UI_CubeHolder>().fridgeToSpawn;
-            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().fridgePlaceSpawn;
+            GameObject fridge = holder.fridgeToSpawn;
+            Transform placeToSpawn = holder.fridgePlaceSpawn;
             Instantiate(fridge, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnTV()
+        {
+            GameObject television = holder.tvToSpawn;
+            Transform placeToSpawn = holder.tvPlaceSpawn;
+            Instantiate(television, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnLamp()
+        {
+            GameObject lamp = holder.lampToSpawn;
+            Transform placeToSpawn = holder.lampPlaceSpawn;
+            Instantiate(lamp, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnTable()
+        {
+            GameObject table = holder.tableToSpawn;
+            Transform placeToSpawn = holder.tablePlaceSpawn;
+            Instantiate(table, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnBed()
+        {
+            GameObject bed = holder.bedToSpawn;
+            Transform placeToSpawn = holder.bedPlaceSpawn;
+            Instantiate(bed, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnDrawer()
+        {
+            GameObject drawer = holder.drawerToSpawn;
+            Transform placeToSpawn = holder.drawerPlaceSpawn;
+            Instantiate(drawer, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnDesk()
+        {
+            GameObject desk = holder.deskToSpawn;
+            Transform placeToSpawn = holder.deskPlaceSpawn;
+            Instantiate(desk, placeToSpawn.position, transform.rotation);
+        }
+
+        public void SpawnSmallLamp()
+        {
+            GameObject smallLamp = holder.smallLampToSpawn;
+            Transform placeToSpawn = holder.smallLampPlaceSpawn;
+            Instantiate(smallLamp, placeToSpawn.position, transform.rotation);
         }
 
         public void Button_Pink()
