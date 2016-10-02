@@ -6,7 +6,7 @@
 
 Here's a walkthrough:
 
-<img src='http://imgur.com/a/Ek7Fr' title='Humble Abodes Walkthrough' width='' alt='TwitterTangent Walkthrough' />
+<img src='http://imgur.com/a/Ek7Fr' title='Humble Abodes Walkthrough' width='' alt='Humble Abodes Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
