@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: b799f72c7b301b9428485a9c0a4d29d4
+timeCreated: 1475366702
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bed_11
+    100004: deka_14
+    100006: mattress_12
+    100008: pilow1_16
+    100010: pilow2_15
+    100012: postel_V00_0
+    100014: postel_V10_2
+    100016: postel_V11_3
+    100018: postel_V12_4
+    100020: postel_V13_5
+    100022: postel_V14_6
+    100024: postel_V15_7
+    100026: postel_V16_8
+    100028: postel_V17_9
+    100030: postel_V18_10
+    100032: postel_V1_1
+    100034: sheet_13
+    400000: //RootNode
+    400002: bed_11
+    400004: deka_14
+    400006: mattress_12
+    400008: pilow1_16
+    400010: pilow2_15
+    400012: postel_V00_0
+    400014: postel_V10_2
+    400016: postel_V11_3
+    400018: postel_V12_4
+    400020: postel_V13_5
+    400022: postel_V14_6
+    400024: postel_V15_7
+    400026: postel_V16_8
+    400028: postel_V17_9
+    400030: postel_V18_10
+    400032: postel_V1_1
+    400034: sheet_13
+    2300000: bed_11
+    2300002: deka_14
+    2300004: mattress_12
+    2300006: pilow1_16
+    2300008: pilow2_15
+    2300010: postel_V00_0
+    2300012: postel_V10_2
+    2300014: postel_V11_3
+    2300016: postel_V12_4
+    2300018: postel_V13_5
+    2300020: postel_V14_6
+    2300022: postel_V15_7
+    2300024: postel_V16_8
+    2300026: postel_V17_9
+    2300028: postel_V18_10
+    2300030: postel_V1_1
+    2300032: sheet_13
+    3300000: bed_11
+    3300002: deka_14
+    3300004: mattress_12
+    3300006: pilow1_16
+    3300008: pilow2_15
+    3300010: postel_V00_0
+    3300012: postel_V10_2
+    3300014: postel_V11_3
+    3300016: postel_V12_4
+    3300018: postel_V13_5
+    3300020: postel_V14_6
+    3300022: postel_V15_7
+    3300024: postel_V16_8
+    3300026: postel_V17_9
+    3300028: postel_V18_10
+    3300030: postel_V1_1
+    3300032: sheet_13
+    4300000: bed_11
+    4300002: deka_14
+    4300004: mattress_12
+    4300006: pilow1_16
+    4300008: pilow2_15
+    4300010: postel_V00_0
+    4300012: postel_V10_2
+    4300014: postel_V11_3
+    4300016: postel_V12_4
+    4300018: postel_V13_5
+    4300020: postel_V14_6
+    4300022: postel_V15_7
+    4300024: postel_V16_8
+    4300026: postel_V17_9
+    4300028: postel_V18_10
+    4300030: postel_V1_1
+    4300032: sheet_13
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

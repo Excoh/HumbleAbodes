@@ -5,11 +5,20 @@
 
     public class UI_Interactions : MonoBehaviour
     {
+        public GameObject furnitureHolder;
         private const int EXISTING_CANVAS_COUNT = 4;
 
         public void Button_Red()
         {
             Debug.Log("Red Button Clicked");
+        }
+
+        public void Spawn_Cubes()
+        {
+            GameObject cubes = furnitureHolder.GetComponent<UI_CubeHolder>().cubesToSpawn;
+            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().wheretoSpawn;
+            Debug.Log("Spawning Cubes");
+            Instantiate(cubes, placeToSpawn.position, transform.rotation);
         }
 
         public void Button_Pink()

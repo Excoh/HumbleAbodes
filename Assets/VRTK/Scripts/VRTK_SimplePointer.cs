@@ -18,12 +18,16 @@ namespace VRTK
     {
         [Tooltip("The thickness and length of the beam can also be set on the script as well as the ability to toggle the sphere beam tip that is displayed at the end of the beam (to represent a cursor).")]
         public float pointerThickness = 0.002f;
+
         [Tooltip("The distance the beam will project before stopping.")]
         public float pointerLength = 100f;
+
         [Tooltip("Toggle whether the cursor is shown on the end of the pointer beam.")]
         public bool showPointerTip = true;
+
         [Tooltip("A custom Game Object can be applied here to use instead of the default sphere for the pointer cursor.")]
         public GameObject customPointerCursor;
+
         [Tooltip("The layers to ignore when raycasting.")]
         public LayerMask layersToIgnore = Physics.IgnoreRaycastLayer;
 

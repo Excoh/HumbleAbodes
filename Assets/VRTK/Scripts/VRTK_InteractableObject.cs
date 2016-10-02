@@ -310,10 +310,8 @@ namespace VRTK
         /// <param name="currentTouchingObject">The game object that is currently touching this object.</param>
         public virtual void StartTouching(GameObject currentTouchingObject)
         {
-            Debug.Log("Call the fuck out of this function.");
             if (!touchingObjects.Contains(currentTouchingObject))
             {
-                Debug.Log("Added the fuck out of this cube.");
                 touchingObjects.Add(currentTouchingObject);
                 OnInteractableObjectTouched(SetInteractableObjectEvent(currentTouchingObject));
             }
