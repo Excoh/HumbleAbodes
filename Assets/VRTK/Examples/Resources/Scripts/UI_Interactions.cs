@@ -1,6 +1,7 @@
 ﻿namespace VRTK.Examples
 {
     using UnityEngine;
+    using UnityEngine.SceneManagement;
     using UnityEngine.UI;
 
     public class UI_Interactions : MonoBehaviour
@@ -88,6 +89,11 @@
             GameObject smallLamp = holder.smallLampToSpawn;
             Transform placeToSpawn = holder.smallLampPlaceSpawn;
             Instantiate(smallLamp, placeToSpawn.position, transform.rotation);
+        }
+
+        public void Restart()
+        {
+            SceneManager.LoadScene("Demo");
         }
 
         public void Button_Pink()
