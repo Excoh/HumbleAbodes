@@ -6,12 +6,13 @@
 
 Here's a walkthrough:
 
-<img src='http://i.imgur.com/JSsBPYJ.gifv' title='Humble Abodes Walkthrough' width='' alt='Humble Abodes Walkthrough' />
+<img src="http://i.imgur.com/JSsBPYJ.gifv" title='Humble Abodes Walkthrough' width='' alt='Humble Abodes Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## External Links
 - Devpost: http://devpost.com/software/humble-abode
+- Walkthrough: http://i.imgur.com/JSsBPYJ.gifv
 
 
 Copyright [2016] [Humble Abodes Team]
