@@ -9,4 +9,7 @@ public class UI_CubeHolder : MonoBehaviour {
     public GameObject sofaToSpawn;
     public Transform sofaPlaceSpawn;
 
+    public GameObject fridgeToSpawn;
+    public Transform fridgePlaceSpawn;
+
 }
