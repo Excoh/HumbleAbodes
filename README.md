@@ -6,7 +6,7 @@
 
 Here's a walkthrough:
 
-<img src="http://i.imgur.com/JSsBPYJ.gifv" title='Humble Abodes Walkthrough' width='' alt='Humble Abodes Walkthrough' />
+<img src="http://imgur.com/a/7cy0M.gif" title='Humble Abodes Walkthrough' width='' alt='Humble Abodes Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
