@@ -21,6 +21,13 @@
             Instantiate(cubes, placeToSpawn.position, transform.rotation);
         }
 
+        public void Spawn_Sofa()
+        {
+            GameObject sofa = furnitureHolder.GetComponent<UI_CubeHolder>().sofaToSpawn;
+            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().sofaPlaceSpawn;
+            Instantiate(sofa, placeToSpawn.position, transform.rotation);
+        }
+
         public void Button_Pink()
         {
             Debug.Log("Pink Button Clicked");
