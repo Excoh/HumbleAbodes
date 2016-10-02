@@ -28,6 +28,13 @@
             Instantiate(sofa, placeToSpawn.position, transform.rotation);
         }
 
+        public void Spawn_Fridge()
+        {
+            GameObject fridge = furnitureHolder.GetComponent<UI_CubeHolder>().fridgeToSpawn;
+            Transform placeToSpawn = furnitureHolder.GetComponent<UI_CubeHolder>().fridgePlaceSpawn;
+            Instantiate(fridge, placeToSpawn.position, transform.rotation);
+        }
+
         public void Button_Pink()
         {
             Debug.Log("Pink Button Clicked");
